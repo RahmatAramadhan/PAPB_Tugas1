@@ -46,6 +46,7 @@ for free with live projects."
         app:layout_constraintRight_toRightOf="parent">
 
         <EditText
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/bg_text"
@@ -54,9 +55,12 @@ for free with live projects."
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
-            android:textColorHint="@color/white"/>
+            android:textColorHint="@color/white"
+            android:cursorVisible="false"
+            />
 
         <EditText
+            android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
@@ -65,9 +69,12 @@ for free with live projects."
             android:inputType="textPassword"
             android:paddingLeft="30dp"
             android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+            android:textColorHint="@color/white"
+            android:cursorVisible="false"
+            />
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
