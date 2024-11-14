@@ -113,10 +113,11 @@ for free with live projects."
         app:layout_constraintRight_toRightOf="parent">
 
         <ImageView
+            android:id="@+id/btnGoogle"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/gmail"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:src="@drawable/gmail" />
 
         <ImageView
             android:layout_width="50dp"
